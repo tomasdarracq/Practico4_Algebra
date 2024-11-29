@@ -4,7 +4,7 @@ from CriptoSistema2 import CriptoSistema2, DesencriptaCriptoSistema2, inversa_mo
 from letraMasRepetida import letraMasRepetida
 
 # Criptosistema 1
-textoOriginal = "la culpa es de catarina"
+textoOriginal = "LA CULPA ES DE CATARINA ELLA ES LA ESPIA Y EL SECRETO ES LA PALABRA QUE COMIENZA CON NI MAS NI MENOS QUE *"
 a = 3
 b = 7
 
@@ -31,7 +31,7 @@ T_inv = inversa_modular_matriz(T, 29)
 b = np.array([[3], [5], [7]])
 
 # Texto original
-textoOriginal2 = "la culpa es de catarina y catarina es una espia"
+textoOriginal2 = "LA CULPA ES DE CATARINA ELLA ES LA ESPIA Y EL SECRETO ES LA PALABRA QUE COMIENZA CON NI MAS NI MENOS QUE *"
 
 # Encriptar el texto
 texto_encriptado2 = CriptoSistema2(textoOriginal2, T, b)

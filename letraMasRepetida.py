@@ -18,5 +18,5 @@ def letraMasRepetida(textoOriginal):
             max_repeticiones_original = repeticiones
             posiciones_original = posiciones
 
-    print(f"Letra mas repetida en el texto original: '{
+    print(f"Letra mas repetida: '{
         letra_mas_repetida_original}' en posiciones {posiciones_original}")
