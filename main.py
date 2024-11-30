@@ -17,7 +17,7 @@ print("Texto desencriptado (CriptoSistema1):", textoDesencriptado1)
 letraMasRepetida(textoOriginal)
 letraMasRepetida(textoEncriptado1)
 
-# Uso del CriptoSistema2
+# CriptoSistema2
 # Matriz T y su inversa
 T = np.array([[2, 1, 0],
               [1, 1, 1],
